@@ -6,6 +6,7 @@
 
 pub mod distributions;
 pub mod model;
+pub mod models;
 pub mod policy;
 
 pub use model::{FiniteMDP, FinitePOMDP, MDP, POMDP};
