@@ -35,6 +35,9 @@ pub mod policy;
 pub mod simulator;
 pub mod solvers;
 
+#[cfg(feature = "python")]
+mod python;
+
 pub use model::{FiniteMDP, FinitePOMDP, MDP, POMDP};
 
 /// Commonly used traits and types.
