@@ -38,6 +38,11 @@ pub mod solvers;
 #[cfg(feature = "python")]
 mod python;
 
+// Compile and run the README's Rust snippets as doctests.
+#[cfg(doctest)]
+#[doc = include_str!("../README.md")]
+struct ReadmeDoctests;
+
 pub use model::{FiniteMDP, FinitePOMDP, MDP, POMDP};
 
 /// Commonly used traits and types.
