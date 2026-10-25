@@ -1,0 +1,11 @@
+[package]
+name = "pomdp"
+version = "0.1.0"
+edition = "2024"
+description = "A Rust port of Julia's POMDPs.jl: an interface and toolkit for defining and solving Markov decision processes (MDPs) and partially observable MDPs (POMDPs), with Python bindings."
+license = "MIT OR Apache-2.0"
+keywords = ["pomdp", "mdp", "reinforcement-learning", "planning", "python"]
+categories = ["science", "algorithms", "simulation"]
+
+[dependencies]
+rand = "0.9"
