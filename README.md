@@ -30,9 +30,8 @@ only, so any model works with any compatible tool.
 
 ## Rust
 
-```toml
-[dependencies]
-pomdp = { git = "<repository url>" }
+```sh
+cargo add pomdp
 ```
 
 ### Solving a problem
